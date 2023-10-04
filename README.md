@@ -11,6 +11,10 @@
     ```
     bench get-app https://github.com/nepfinder/ew_customization
     ```
+3. Deveoper Mode
+    ```
+    $ bench --site <sitename> set-config --global developer_mode 1
+    ```
 3. Install the payments app on the required site by running
     ```
     bench --site <sitename> install-app ew_customization
