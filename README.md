@@ -1,6 +1,7 @@
 ## Frappe CRM App Customization
 
-![image](https://github.com/nepfinder/crm_customization/assets/64308806/ca9288aa-6937-4e38-a93f-7f584b0aafb3)
+![269898148-ca9288aa-6937-4e38-a93f-7f584b0aafb3](https://github.com/nepfinder/EW_Customization/assets/64308806/d4c06d02-17ad-4140-acac-404934d7d9c8)
+
 
 
 ## Installation
