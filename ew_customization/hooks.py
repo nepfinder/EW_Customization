@@ -226,5 +226,10 @@ fixtures = [{
     "filters": [["name", "in", ("crm")]] 
  }]
 
+fixtures = [{
+    "doctype": "DocType",
+    "filters": [["name", "in", ("Project Type")]] 
+ }]
+
 #execute command ---->   bench --site [site-name] export-fixtures
 
