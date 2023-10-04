@@ -219,3 +219,12 @@ app_license = "mit"
 # auth_hooks = [
 #	"ew_customization.auth.validate"
 # ]
+
+
+fixtures = [{
+    "doctype": "Workspace",
+    "filters": [["name", "in", ("crm")]] 
+ }]
+
+#execute command ---->   bench --site [site-name] export-fixtures
+
