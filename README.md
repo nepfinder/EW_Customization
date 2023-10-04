@@ -13,7 +13,7 @@
     ```
 3. Developer Mode
     ```
-    $ bench --site <sitename> set-config --global developer_mode 1
+    bench --site <sitename> set-config --global developer_mode 1
     ```
 3. Install the payments app on the required site by running
     ```
