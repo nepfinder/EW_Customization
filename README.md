@@ -9,11 +9,11 @@
 
 2. Once setup is complete, add the payments app to your bench by running
     ```
-    bench get-app https://github.com/nepfinder/crm_customization
+    bench get-app https://github.com/nepfinder/ew_customization
     ```
 3. Install the payments app on the required site by running
     ```
-    bench --site <sitename> install-app crm_customization
+    bench --site <sitename> install-app ew_customization
     ```
 4. Restart Services
      ```
@@ -25,7 +25,7 @@
 
 1. Pull latest code from github
     ```
-    cd frappe-bench/apps/crm_customization
+    cd frappe-bench/apps/ew_customization
     ```   
 2. Pull latest version from github
      ```
