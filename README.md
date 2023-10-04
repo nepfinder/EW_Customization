@@ -1,7 +1,44 @@
-## EW_Customization
+## Frappe CRM App Customization
 
-Eminence Ways Customization
+![image](https://github.com/nepfinder/crm_customization/assets/64308806/ca9288aa-6937-4e38-a93f-7f584b0aafb3)
+
+
+## Installation
+1. Install [bench & frappe]([https://frappeframework.com/docs/v14/user/en/installation](https://github.com/nepfinder/CRMCustomization)).
+
+2. Once setup is complete, add the payments app to your bench by running
+    ```
+    bench get-app https://github.com/nepfinder/crm_customization
+    ```
+3. Install the payments app on the required site by running
+    ```
+    bench --site <sitename> install-app crm_customization
+    ```
+4. Restart Services
+     ```
+    sudo supervisorctl restart all
+    ```
+
+
+## Update
+
+1. Pull latest code from github
+    ```
+    cd frappe-bench/apps/crm_customization
+    ```   
+2. Pull latest version from github
+     ```
+     git pull
+    ```
+3. Migrate Site
+     ```
+    bench --site <sitename> migrate
+    ```
+4. Restart Services
+     ```
+    sudo supervisorctl restart all
+    ```
 
 #### License
 
-mit
+MIT
