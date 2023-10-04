@@ -11,7 +11,7 @@
     ```
     bench get-app https://github.com/nepfinder/ew_customization
     ```
-3. Deveoper Mode
+3. Developer Mode
     ```
     $ bench --site <sitename> set-config --global developer_mode 1
     ```
