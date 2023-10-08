@@ -224,9 +224,7 @@ app_license = "mit"
 fixtures = [{
     "doctype": "Workspace",
     "filters": [["name", "in", ("crm")]] 
- }]
-
-fixtures = [{
+ },{
     "doctype": "DocType",
     "filters": [["name", "in", ("Project Type")]] 
  }]
